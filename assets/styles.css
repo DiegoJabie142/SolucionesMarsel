@@ -34,7 +34,7 @@ body{
 
 @media (max-width: 381px) {
     .logo-img {
-        height: 28px;
+        height: 35px;
     }
 
     .logo span{
@@ -97,6 +97,15 @@ body{
 .logo {
     font-size: 27px;
     margin-left: 10px;
+}
+
+@media (max-width:330px){
+    .logo span{
+        display: none;
+    }
+    .logo img{
+        height: 45px;
+    }
 }
 
 /* HEADER */
